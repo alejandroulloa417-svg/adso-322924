@@ -24,9 +24,13 @@ function mostrarDia() {
         case 7:
             dia = "Domingo";
             break;
+        case 8:
+            dia = "festivo";
+            break;
         default:
             dia = "Número inválido. Ingresa un valor entre 1 y 7.";
     }
+
 
     document.getElementById("resultado").innerText = dia;
 }
