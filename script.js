@@ -34,3 +34,4 @@ function mostrarDia() {
 
     document.getElementById("resultado").innerText = dia;
 }
+//conflicto
