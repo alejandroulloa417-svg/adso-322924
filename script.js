@@ -2,7 +2,7 @@ function mostrarDia() {
     let numero = parseInt(document.getElementById("numeroDia").value);
     let dia;
 
-    switch (numero) {
+    switch (numero2) {
         case 1:
             dia = "Lunes";
             break;
